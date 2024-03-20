@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    
+</head>
+<body>
+    <div>
+    <form >
+    <h1>Event Registration</h1>
+    <br/>
+    <label for="candidate name">Name:</label>
+    <input type="text" id="candidate name" name="candidate name">
+    <br><br>
+    <label for="mail">Email:</label>
+    <input type="text" id="mail" name="mail" >
+    <br><br><label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone">
+    <br><br>
+    <label for="occ">Occupation:</label>
+
+    <select name="occupation" id="occ" size="2" multiple>
+        <option value="none" selected hidden>choose</option>
+    <option value="other">other</option>
+    <option value="doc">doctor</option>
+    <option value="eng">engineer</option>
+</select> 
+    <br><br>
+    <label for="toi">Topics of Interest</label>
+    <br><br>
+    <input type="checkbox">HTML
+    <br><br>
+    <input type="checkbox">CSS
+    <br><br>
+    <input type="checkbox">JavaScript
+    <br><br>
+    <label for="comments">Comments</label>
+    <br>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+   
+    <button>Register</button>
+</form>
+</div>
+
+
+       <div>
+        <form>
+            <h1>Job Application</h1>
+            <label for="candidate name">Name:</label><br><br>
+            <input type="text" id="candidate name" name="candidate name">
+            <br><br>
+            <label for="mail">Email:</label><br><br>
+            <input type="mail" id="mail" name="mail"><br><br>
+            <label for="phone">Phone:</label><br><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="file">Resume:</label><br><br>
+           <input type="file" id="file" name="file">
+           <fieldset>
+            <legend>Skills</legend>
+           <label for="html">HTML</label>
+           <input type="checkbox" id="html" name="html">
+             <label for="css">CSS</label>
+             <input type="checkbox" id="css" name="css">
+             <label for="radio">Javascript</label>
+             <input type="checkbox" id="js" name="js">
+          </fieldset>
+          <label for="higheredu">Highest education:</label><br>
+          <select name="higheredu" id="higheredu">
+                 <option value="hs">High school</option>
+                <option value="inter">Intermediate</option>
+
+          </select>
+          <br><br>
+          
+          <input type="radio" id="fulltime" name="jobtype"><br>
+          <label for="fulltime">Full time</label><br>
+         
+          <input type="radio" id="parttime" name="jobtype"><br>
+          <label for="partime">Part time</label>
+          <label for="counter">Experience(years):</label>
+          <input type="number" name="counter" id="counter" min="0" max="70">
+ </form>
+       </div>
+       
+
+       <div>
+        <form>
+            <h1>Complex form</h1>
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="candidate name">Name:</label><br>
+                <input type="text" id="candidate name" name="candidate name">
+                <br>
+                <label for="mail">Email:</label><br>
+                <input type="email" id="mail" name="mail">
+                <br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+                <label for="date of birth">Date of birth:</label>
+                <input type="date" name="date of birth" id="date of birth">
+            </fieldset>
+         
+            <fieldset>
+                <legend>other info</legend>
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter comments here"></textarea>
+                <label for="terms">I agree to the terms of service</label>
+                <input type="checkbox" name="terms" id="terms">
+            </fieldset>
+            <button>Submit</button>
+        </form>
+       </div>
+
+       
+
+</body>
+</html>
